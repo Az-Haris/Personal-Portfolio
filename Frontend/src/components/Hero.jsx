@@ -174,7 +174,7 @@ const profile = {
                 {socialLinks.map((link, idx) => (
                   <a key={idx} href={link.link} target="_blank">
                     <img
-                      className="w-12 shadow-lg transform hover:scale-110 transition duration-200"
+                      className="w-10 shadow-lg transform hover:scale-110 transition duration-200"
                       src={link.image}
                       alt={link.name}
                     />
